@@ -42,8 +42,7 @@ const Header: React.FC<HeaderProps> = ({
     return (
         <div className={twMerge(`
             h-fit
-            bg-gradient-to-b
-            from-emerald-800
+            bg-gradient-to-r from-red-700 via-green-600 to-black
             p-6
         `,
         className
